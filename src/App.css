@@ -1,0 +1,40 @@
+/* src/App.css */
+.dndflow {
+  display: flex;
+  height: 100vh;
+}
+
+.reactflow-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+aside {
+  width: 200px;
+  padding: 10px;
+  background: #f8f8f8;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dndnode {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+  cursor: grab;
+}
+
+.dndnode.input {
+  background: #e8f7ff;
+}
+
+.description {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #777;
+}
